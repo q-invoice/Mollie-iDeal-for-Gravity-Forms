@@ -105,7 +105,7 @@ if (method_exists('GFForms', 'include_payment_addon_framework')) {
 
             $currency_options = array();
             foreach($this->_supported_currencies as $c){
-                $currency_options = array(
+                $currency_options[] = array(
                     'label' => $c,
                     'value' => $c,
                 );
@@ -155,9 +155,9 @@ if (method_exists('GFForms', 'include_payment_addon_framework')) {
                     'name' => 'currency',
                     'tooltip' => __('Specify the currency in which amounts are paid for this feed', 'mollie-ideal-for-gravity-forms-by-q-invoice'),
                     'class' => 'medium',
-                    'choices' => array(
+                    'choices' =>
                         $currency_options
-                    ),
+                    ,
                 ),
 
 
