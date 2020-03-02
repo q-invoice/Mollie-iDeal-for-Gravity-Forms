@@ -1,7 +1,7 @@
 Mollie iDeal for Gravity Forms by q-invoice
 ==========
 
-Adds Mollie iDeal and other payment methods to your Gravity Forms.
+Adds Mollie iDeal and other payment methods to your Gravity Forms. [Wordpress repisitory mirror](https://wordpress.org/plugins/qinvoice-mollie-ideal-for-gravity-forms/).
 
 ### Description
 
@@ -11,7 +11,7 @@ This plugin allows you to integrate and use Mollie payments for your Gravity For
 
 Install the plugin by uploading the zipfile in your WP admin interface or via FTP:
 
-1. Upload the folder `gravity-forms-mollie-ideal-q-invoice` to the `/wp-content/plugins/` directory
+1. Upload the folder `qinvoice-mollie-ideal-for-gravity-forms` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Find the configuration page and fill out your settings and preferences
 
